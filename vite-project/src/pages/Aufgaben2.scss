@@ -1,0 +1,17 @@
+.aufgaben2 {
+  width: min-content;
+  background-color: yellowgreen;
+  padding: 2rem 2rem;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+
+  form {
+    display: flex;
+    gap: 2px;
+    input {
+      padding: 0.5rem 0.25rem;
+      border: none;
+    }
+  }
+}

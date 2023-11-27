@@ -1,0 +1,28 @@
+.aufgaben1 {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5vh;
+  border: 2px solid yellowgreen;
+  padding: 3vh 20%;
+  div {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+
+    button {
+      background-color: rgb(255, 255, 255);
+      border: 1px solid yellowgreen;
+      padding: 0.5rem 1rem;
+      color: yellowgreen;
+    }
+  }
+  button {
+    background-color: yellowgreen;
+    padding: 0.5rem 2rem;
+    border-radius: 0.5rem;
+    border: none;
+    color: white;
+  }
+}

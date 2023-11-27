@@ -1,0 +1,27 @@
+section {
+  margin: 2% auto;
+  width: 60%;
+  height: 200px;
+  border: 2px solid yellowgreen;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  button {
+    align-self: center;
+    padding: 0.5rem 2rem;
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 2rem;
+    margin-bottom: 2rem;
+  }
+}
+.dark {
+  background-color: black;
+  color: white;
+  button {
+    background-color: white;
+    color: black;
+  }
+}
