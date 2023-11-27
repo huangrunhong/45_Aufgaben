@@ -11,7 +11,7 @@ const Aufgaben1 = () => {
           <p>{num} </p>
           <button
             onClick={() => {
-              setNum(Math.floor(Math.abs(num - 1)));
+              setNum(Math.max(num - 1, 0));
             }}
           >
             -
